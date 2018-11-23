@@ -12,7 +12,7 @@ deb http://br.archive.ubuntu.com/ubuntu/ bionic-updates multiverse \n
 deb http://br.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse \n
 deb http://security.ubuntu.com/ubuntu bionic-security main restricted \n
 deb http://security.ubuntu.com/ubuntu bionic-security universe \n
-deb http://security.ubuntu.com/ubuntu bionic-security multiverse \n " >> teste.txt
+deb http://security.ubuntu.com/ubuntu bionic-security multiverse \n " >> /etc/apt/sources.list
 
 #instalando docker
 
