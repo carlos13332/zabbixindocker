@@ -1,19 +1,5 @@
 #!/bin/bash
 
-#add repo no sources.list
-
-echo -e "
-deb http://br.archive.ubuntu.com/ubuntu/ bionic main restricted\n
-deb http://br.archive.ubuntu.com/ubuntu/ bionic-updates main restricted\n
-deb http://br.archive.ubuntu.com/ubuntu/ bionic universe\n
-deb http://br.archive.ubuntu.com/ubuntu/ bionic-updates universe \n
-deb http://br.archive.ubuntu.com/ubuntu/ bionic multiverse \n
-deb http://br.archive.ubuntu.com/ubuntu/ bionic-updates multiverse \n
-deb http://br.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse \n
-deb http://security.ubuntu.com/ubuntu bionic-security main restricted \n
-deb http://security.ubuntu.com/ubuntu bionic-security universe \n
-deb http://security.ubuntu.com/ubuntu bionic-security multiverse \n " >> /etc/apt/sources.list
-
 #instalando docker
 
 sudo apt-get update
